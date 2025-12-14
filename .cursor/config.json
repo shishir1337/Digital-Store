@@ -1,0 +1,42 @@
+{
+  "project": {
+    "framework": "Next.js 16",
+    "router": "App Router",
+    "typescript": {
+      "strict": true,
+      "noAny": true
+    },
+    "stateManagement": "Zustand",
+    "uiLibrary": "Shadcn UI"
+  },
+  "folders": {
+    "app": ["(auth)", "dashboard", "products"],
+    "components": ["ui", "common", "layout"],
+    "hooks": [],
+    "store": [],
+    "types": [],
+    "utils": []
+  },
+  "codingGuidelines": {
+    "modular": true,
+    "humanReadable": true,
+    "commentsRequired": true,
+    "DRY": true,
+    "consistentNaming": true,
+    "smallFunctions": true,
+    "responsiveUI": true,
+    "accessibleUI": true
+  },
+  "nextFeatures": {
+    "serverActions": true,
+    "SSR": true,
+    "ISR": true,
+    "CSR": true,
+    "useWisely": true
+  },
+  "qualityTools": {
+    "eslint": true,
+    "prettier": true
+  }
+}
+
